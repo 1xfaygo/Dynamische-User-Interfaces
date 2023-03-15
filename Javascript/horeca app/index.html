@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=	, initial-scale=1.0">
-    <title>Document</title>
+    <script src="horeca-app.js" async></script>
+    <title>horeca</title>
 </head>
 <body>
-    <button type="button" onclick="handlelogin()">log in </button>
+    <form>
+        <label for="drinks">kies een drank:</label>
+        <select name="drank" id="drank">
+            <option value="fris">fris</option>
+            <option value="bier">bier</option>
+            <option value="wijn">wijn</option>
+        </select>
+        <input type="number" id="aantal" min="1" max="10"></input>
+        <button type="button" onclick="myFunction()">toevoegen</button>
+        <button type="button" >afrekenen</button>
+      </form>	
+    <p id="">hoi</p>
 </body>
 </html>
